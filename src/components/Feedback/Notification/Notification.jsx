@@ -1,7 +1,7 @@
 /* eslint-disable react/no-typos */
 import React from "react";
 import styles from "./Notification.module.css";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 const Notification = ({ message }) => {
   return (
@@ -11,8 +11,8 @@ const Notification = ({ message }) => {
   );
 };
 
-Notification.PropTypes = {
-  message: PropTypes.string.isRequired,
+Notification.propTypes = {
+  message: propTypes.string,
 };
 
 export default Notification;
